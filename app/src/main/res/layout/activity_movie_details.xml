@@ -50,11 +50,27 @@
 
     <ImageView
         android:id="@+id/ivPosterPic"
-        android:layout_width="260dp"
-        android:layout_height="266dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="0dp"
+        android:layout_height="290dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvOverview"
-        app:srcCompat="@android:color/black"
-        tools:layout_editor_absoluteX="75dp" />
+        app:srcCompat="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="93dp"
+        android:layout_height="204dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivPosterPic"
+        app:layout_constraintEnd_toEndOf="@+id/ivPosterPic"
+        app:layout_constraintStart_toStartOf="@+id/ivPosterPic"
+        app:layout_constraintTop_toTopOf="@+id/ivPosterPic"
+        app:srcCompat="@drawable/playbutton" />
 
 </android.support.constraint.ConstraintLayout>
